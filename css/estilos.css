@@ -15,3 +15,13 @@ header, footer{
     text-align: center;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+}
