@@ -1,7 +1,14 @@
 body{
     background-color: aquamarine;
+    box-sizing: border-box;
 }
 
 header, footer{
     background-color: blue;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+    font-size: 25px;
+    text-align: center;
 }
+
