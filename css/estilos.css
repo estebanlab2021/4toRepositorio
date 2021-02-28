@@ -37,9 +37,21 @@ header, footer{
     background-color: rgb(122, 182, 178);
 }
 
+.contenedor1 > article:hover{
+    background-color: rgb(117, 121, 120);
+    color:white;
+    font-size: 14pt;
+}
+
 .contenedor2 > article {
     text-align: justify;
     padding: 1.5em;
     margin: 2em;
     background-color: rgb(194, 204, 203);
+}
+
+.contenedor2 > article:hover{
+    background-color: rgb(238, 240, 162);
+    /*color:white;*/
+    font-size: 14pt;
 }
