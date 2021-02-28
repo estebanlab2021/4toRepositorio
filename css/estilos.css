@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     box-sizing: border-box;
     min-height: 100%;
     margin: 0;
@@ -11,17 +11,35 @@ header, footer{
     padding-top: 2em;
     padding-bottom: 2em;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
-section{
+.contenedor_global{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+    background: linear-gradient(to bottom right, aquamarine, white);
 }
 
-article {
+.contenedor1, .contenedor2{
+    width: 50%;
+}
+
+.contenedor1 > article {
     text-align: justify;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 1.5em;
+    margin: 2em;
+    background-color: rgb(122, 182, 178);
+}
+
+.contenedor2 > article {
+    text-align: justify;
+    padding: 1.5em;
+    margin: 2em;
+    background-color: rgb(194, 204, 203);
 }
